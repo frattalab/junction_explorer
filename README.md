@@ -9,7 +9,25 @@ You can download and unzip the full parquet files for NYGC from here:
 
 You are going to download this GitHub repo (this one, where we are, right now)
 
-You are going to upzip those folders
+You are going to upzip those folders.
+
+You are going to navigate to 
+data > parquets
+<img width="1324" height="184" alt="Screenshot 2025-09-03 at 20 08 18" src="https://github.com/user-attachments/assets/8db69cf7-e9cf-4448-885e-3af91a4fe19f" />
+
+You are going to delete what is inside the parquets folder, not the folder itself. 
+<img width="328" height="163" alt="Screenshot 2025-09-03 at 20 09 59" src="https://github.com/user-attachments/assets/c381dbc7-9a80-45d1-863b-57c11937b93c" />
+
+You are going to put the thing you have just downloaded (after unzipping) into the the parquets folders. 
+
+You are going to double click on the project
+<img width="1042" height="228" alt="Screenshot 2025-09-03 at 20 11 30" src="https://github.com/user-attachments/assets/a528f444-a7f0-42f9-ac15-ab384c8a6b9d" />
+
+RStudio is going to open, and you are not afraid, you can do this. 
+You are going to click on the `app.R` to open it
+<img width="487" height="400" alt="Screenshot 2025-09-03 at 20 12 46" src="https://github.com/user-attachments/assets/6d68740a-751c-40a3-bea8-d3bcd330abc0" />
+
+You are going to click the button saying run app at the upper right hand side 
 
 
 
