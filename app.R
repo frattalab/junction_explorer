@@ -349,16 +349,22 @@ server <- function(input, output, session) {
             # Load metadata once
             nygc_metadata <- fread("data/nygc/nygc_metadata.csv")
             rimod_metadata <- fread("data/rimod/rimod_meta.csv")
+            possible_events_dt <-  fread("data/possible_junctions.csv")
+            
             
             # If we've got a gene name for that event in this table
-            junction_name = possible_events() %>% 
+            junction_name = possible_events_dt %>% 
                 filter(junctions_coords == input$junction_input) %>% 
                 distinct(gene_name) %>% 
                 pull(gene_name)
-            
-            if(nchar(junction_name) == 0){
+            row_num = possible_events_dt %>% 
+                filter(junctions_coords == input$junction_input) %>% 
+                distinct(gene_name) %>% nrow()
+
+            if(row_num == 0){
                 junction_name = ""
             }
+            
             # Query NYGC data
             nygc_junction_data <- query_junction(junc = input$junction_input,
                                                  dataset_parquet = "data/nygc/parquets")
@@ -368,7 +374,7 @@ server <- function(input, output, session) {
             # Query RIMOD data
             rimod_junction_data <- query_junction(junc = input$junction_input,
                                                   dataset_parquet = "data/rimod/parquets")
-            
+
             # Process and store NYGC data
             if (nrow(nygc_junction_data) > 0) {
                 nygc_data_with_meta <- nygc_junction_data %>% left_join(nygc_metadata, by = "sample")
