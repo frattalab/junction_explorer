@@ -4,8 +4,14 @@ If we could have freely made all the junctions available, we would have, but the
 
 But do not fear! You are an intrepid traveller and you're willing to try and deploy this app on your desktop
 
-You can download and unzip the full parquet files for NYGC from here:
-10.5281/zenodo.15977268
+First, you will go to Zenodo and get the full datasets. 
+You will go here 
+https://zenodo.org/records/15977268
+
+And download the data here
+full_rimod_parquets.zip
+nygc_parquets.zip
+
 
 You are going to download this GitHub repo (this one, where we are, right now)
 <img width="930" height="471" alt="Screenshot 2025-09-05 at 12 47 42" src="https://github.com/user-attachments/assets/075cbd0b-b078-4bad-a074-8cd09d58dac8" />
