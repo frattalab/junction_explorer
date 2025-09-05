@@ -28,6 +28,7 @@ You are going to click on the `app.R` to open it
 <img width="487" height="400" alt="Screenshot 2025-09-03 at 20 12 46" src="https://github.com/user-attachments/assets/6d68740a-751c-40a3-bea8-d3bcd330abc0" />
 
 You are going to click the button saying run app at the upper right hand side 
+<img width="1014" height="475" alt="Screenshot 2025-09-05 at 12 08 29" src="https://github.com/user-attachments/assets/d6347b0a-5e3c-441d-b9c8-1e8cb0a687a3" />
 
 
 
