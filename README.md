@@ -8,6 +8,8 @@ You can download and unzip the full parquet files for NYGC from here:
 10.5281/zenodo.15977268
 
 You are going to download this GitHub repo (this one, where we are, right now)
+<img width="930" height="471" alt="Screenshot 2025-09-05 at 12 47 42" src="https://github.com/user-attachments/assets/075cbd0b-b078-4bad-a074-8cd09d58dac8" />
+
 
 You are going to upzip those folders.
 
