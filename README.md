@@ -29,6 +29,7 @@ data > parquets
 <img width="1324" height="184" alt="Screenshot 2025-09-03 at 20 08 18" src="https://github.com/user-attachments/assets/8db69cf7-e9cf-4448-885e-3af91a4fe19f" />
 
 You are going to delete what is inside the parquets folder, not the folder itself. 
+
 <img width="328" height="163" alt="Screenshot 2025-09-03 at 20 09 59" src="https://github.com/user-attachments/assets/c381dbc7-9a80-45d1-863b-57c11937b93c" />
 
 You are going to put the thing you have just downloaded (after unzipping) into the the parquets folders. 
