@@ -11,17 +11,20 @@ https://zenodo.org/records/15977268
 
 And download the data
 
+
 `full_rimod_parquets.zip`
 `nygc_parquets.zip`
 
 
 You are going to download this GitHub repo (this one, where we are, right now)
+
 <img width="930" height="471" alt="Screenshot 2025-09-05 at 12 47 42" src="https://github.com/user-attachments/assets/075cbd0b-b078-4bad-a074-8cd09d58dac8" />
 
 
 You are going to upzip those folders.
 
 You are going to navigate to 
+
 data > parquets
 <img width="1324" height="184" alt="Screenshot 2025-09-03 at 20 08 18" src="https://github.com/user-attachments/assets/8db69cf7-e9cf-4448-885e-3af91a4fe19f" />
 
