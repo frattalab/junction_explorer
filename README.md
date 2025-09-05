@@ -9,9 +9,10 @@ First, you will go to Zenodo and get the full datasets.
 You will go here 
 https://zenodo.org/records/15977268
 
-And download the data here
-full_rimod_parquets.zip
-nygc_parquets.zip
+And download the data
+
+`full_rimod_parquets.zip`
+`nygc_parquets.zip`
 
 
 You are going to download this GitHub repo (this one, where we are, right now)
