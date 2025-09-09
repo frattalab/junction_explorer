@@ -146,7 +146,7 @@ query_junction = function(junc, dataset_parquet){
 # --- UI ---
 
 ui <- dashboardPage(
-    dashboardHeader(title = "Splice Junction Expression Viewer"),
+    dashboardHeader(title = "Cryptic Creeper"),
     
     dashboardSidebar(
         sidebarMenu(
@@ -336,13 +336,13 @@ ui <- dashboardPage(
             tabItem(tabName = "about",
                     fluidRow(
                         box(
-                            title = "About This App", 
+                            title = "What can I do this with?", 
                             status = "primary", 
                             solidHeader = TRUE,
                             width = 12,
                             
-                            h3("Splice Junction Expression Viewer"),
-                            p("This application allows you to visualize splice junction expression data from two different datasets, NYGC and RIMOD, across various disease conditions and tissue types."),
+                            h3("Cryptic Creeper"),
+                            p(""),
                             
                             h4("Features:"),
                             tags$ul(
@@ -353,20 +353,29 @@ ui <- dashboardPage(
                             ),
                             
                             h4("Usage:"),
-                            p("1. Navigate to the 'Junction Plotter' tab"),
-                            p("2. Enter a junction coordinate (format: chr:start-end)"),
-                            p("3. Select your preferred measure type"),
-                            p("4. Click 'Generate Plots' to visualize the data for both datasets"),
-                            
                             h4("Compendium events:"),
                             p("TDP-43 cryptic splicing events we discovered in across multiple (14) TDP-43 knockdowns as well as NMD-inhibition"),
+                            p("Explore the detection, FPR, and TPR of all the events we discovered in postmortem"),
+                            p("Click on a row to send the junction and gene to the 'Junction Plotter' and 'Gene expression' tabs"),
+                            
+                            
+                            h4("Junction plotter:"),
+                            p("1. Enter a junction coordinate (format: chr:start-end)"),
+                            p("2. Select your preferred measure type"),
+                            p("3. Click 'Generate Plots' to visualize the data for both datasets"),
+                            
+                            h4("Gene expression:"),
+                            p("Explore effect of dose-dependent TDP-43 knockdown, NMD-inhibition, and the nuclear/cytoplasmic expression of your favorite gene"),
+                            
                             
                             h4("Data Source:"),
                             p("Each dataset had its splice junctions extracted from the BAM files with regtools and then was run through LeafCutter's clustering tool to generate PSI values"),
                             
                             h4("Want more?"),
                             p("Due to space limitations, only a subset of all splicing events are available here, but you can download the full files and run the app on your desktop"),
-                            p("Head on over to https://github.com/frattalab/junction_explorer/ to try it out yourself!"),
+                            p("To run the app on your desktop for better performance and explore all  splice junctions in both datasets,"),
+                            tags$a(href="https://github.com/frattalab/junction_explorer/", "Click here!")
+                            
                             
                         )
                     )
