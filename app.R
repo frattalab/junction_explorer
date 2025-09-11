@@ -483,7 +483,7 @@ server <- function(input, output, session) {
                 distinct(gene_name) %>%
                 pull(gene_name)
             
-            if(nchar(junction_name) == 0){
+            if(rlang::is_empty(junction_name)){
                 junction_name = ""
             }
             
